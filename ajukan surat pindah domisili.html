@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ajukan Surat Keterangan Domisili</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7f8;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      background: #fff;
+      margin: auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 25px;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .wa-button {
+      background-color: #25d366;
+      margin-top: 15px;
+    }
+    .wa-button:hover {
+      background-color: #1ebc59;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Pengajuan Surat Keterangan Domisili</h2>
+
+    <!-- GANTI Formspree URL dengan URL kamu setelah mendaftar -->
+    <form action="https://formspree.io/f/yourformid" method="POST" enctype="multipart/form-data">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="nik">NIK</label>
+      <input type="text" id="nik" name="nik" required>
+
+      <label for="kk">Nomor KK</label>
+      <input type="text" id="kk" name="kk" required>
+
+      <label for="alamat_lama">Alamat Lama</label>
+      <textarea id="alamat_lama" name="alamat_lama" rows="2" required></textarea>
+
+      <label for="alamat_baru">Alamat Baru</label>
+      <textarea id="alamat_baru" name="alamat_baru" rows="2" required></textarea>
+
+      <label for="alasan">Alasan Pindah</label>
+      <textarea id="alasan" name="alasan" rows="2" required></textarea>
+
+      <label for="upload_ktp">Unggah KTP (PDF/JPG)</label>
+      <input type="file" id="upload_ktp" name="upload_ktp" accept=".pdf,.jpg,.jpeg,.png" required>
+
+      <label for="upload_kk">Unggah KK (PDF/JPG)</label>
+      <input type="file" id="upload_kk" name="upload_kk" accept=".pdf,.jpg,.jpeg,.png" required>
+
+      <button type="submit">Kirim Pengajuan</button>
+    </form>
+
+    <!-- Tombol WhatsApp ke admin -->
+    <a href="https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20ingin%20mengonfirmasi%20pengajuan%20surat%20domisili." target="_blank">
+      <button class="wa-button">Hubungi Admin via WhatsApp</button>
+    </a>
+  </div>
+</body>
+</html>
