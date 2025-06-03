@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Layanan Surat Keterangan Domisili</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #004080;
+    }
+    .card p {
+      color: #333;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #e0e0e0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Daftar Layanan Surat Keterangan Domisili</h1>
+  <p>Pelayanan Administrasi Domisili Warga</p>
+</header>
+
+<main>
+  <div class="card">
+    <h2>1. Surat Keterangan Domisili untuk Pindah Domisili</h2>
+    <p>Digunakan sebagai syarat pindah alamat ke wilayah administrasi lain.</p>
+    <a href="#" class="btn">Ajukan Sekarang</a>
+  </div>
+
+  <div class="card">
+    <h2>2. Surat Keterangan Domisili untuk Pekerjaan</h2>
+    <p>Digunakan untuk melengkapi dokumen administrasi ketenagakerjaan.</p>
+    <a href="#" class="btn">Ajukan Sekarang</a>
+  </div>
+
+  <div class="card">
+    <h2>3. Surat Keterangan Domisili untuk Sekolah</h2>
+    <p>Digunakan untuk persyaratan pendaftaran sekolah atau pindah sekolah.</p>
+    <a href="#" class="btn">Ajukan Sekarang</a>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Pelayanan Desa Koto tengah siulak. All rights reserved.
+</footer>
+
+</body>
+</html>
